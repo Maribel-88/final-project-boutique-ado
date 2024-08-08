@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'home',
+    'products',
 
     # Optional -- requires install using `django-allauth[socialaccount]`.
     'allauth.socialaccount',
@@ -161,6 +162,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-maribel88-finalprojectb-m3yysrjl9yr.ws-eu115.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-maribel88-finalprojectb-gnvbtl72v2l.ws-eu115.gitpod.io']
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
